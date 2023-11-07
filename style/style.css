@@ -1,0 +1,175 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+/* Updated styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+nav {
+    background-color: #646ca5b8;
+    color: #333; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* padding-bottom: 3px; */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Dark grey shadow */
+}
+
+.logo img {
+    position: absolute;
+    
+    top: 6px;
+    left: 34px;
+    width: 139px;
+
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333; /* Text color */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; /* Background color for dropdown */
+    border: 1px solid #ccc; /* Border for dropdown */
+    min-width: 120px;
+    z-index: 1;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Dark grey shadow */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Updated styles.css */
+/* ... (previous CSS) */
+
+
+/* ... (previous CSS) */
+
+.join-box {
+    background-color: #c2d0d9;
+    color: white; /* Text color for the JOIN button */
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text-content {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    margin-right: 50px;
+    padding-top: 209px;
+    padding-left: 45px;
+}
+.text-content p 
+{
+    padding-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 100px;
+}
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    position: static;
+}
+.learn-more-box {
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    translate: x;
+}
+
+.learn-more-box a {
+    text-decoration: none;
+    color: white;
+}
+#section1{
+    height: 100vh;
+    background-image: url('bg_car.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section02{
+    height: 100vh ;
+    background-color: #f5f5f5; 
+}
+.page2-content {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Background color for Page 2 */
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h1 {
+    font-size: 24px;
+}
+
+.image-container {
+    flex: 1;
+    margin: 0 20px; /* Create a gap in the middle */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+
